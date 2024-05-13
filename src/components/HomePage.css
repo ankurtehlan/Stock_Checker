@@ -1,0 +1,224 @@
+/* Google Font Import Link */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+.overlay {
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  color: #ffff;
+}
+
+.outer_div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+  color: #fff;
+}
+
+.main_outer {
+  display: flex;
+}
+
+.Stock_div {
+  flex: 1;
+}
+
+.Order_div {
+  flex: 1;
+  margin-left: -30rem;
+}
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #29ca8e;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 50px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-top: 8rem;
+  padding: 12px 30px;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #29ca8e;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #29ca8e;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+input[type="file"] {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #29ca8e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #29ca8e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+nav.sticky {
+  padding: 15px 20px;
+  background: #f0f0f0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content {
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffff;
+}
+nav.sticky .logo a {
+  color: #fff;
+}
+.nav-content .nav-links {
+  display: flex;
+}
+.nav-content .nav-links li {
+  list-style: none;
+  margin: 0 8px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #29ca8e;
+}
+nav.sticky .nav-links li a {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+nav.sticky .nav-links li a:hover {
+  color: #0e2431;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 13px;
+  color: #f0f0f0;
+}
+.text {
+  text-align: justify;
+  padding: 40px 80px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-div {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.blank {
+  background: #536976; /* fallback for old browsers */
+  background-color: transparent;
+  height: 100vh;
+}
